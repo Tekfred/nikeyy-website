@@ -9,9 +9,10 @@ import { CustomerReviews, Footer, Hero, PopularProducts, Services,
 
 <main className="relative" >
      <Navbar />
-    <section className="xl:padding-1 wide:padding-r padding-b">
+     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
+    
     <section className="padding">
       <PopularProducts/>
     </section>
@@ -32,7 +33,7 @@ import { CustomerReviews, Footer, Hero, PopularProducts, Services,
     </section>
     <section className="pb-8 bg-black padding-x padding-t">
       <Footer/>
-    </section>
+    </section> 
   </main>
   
 );

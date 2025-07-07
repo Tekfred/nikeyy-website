@@ -1,11 +1,11 @@
 
 const Button = () => {
   return (
-    <Button className= "">
+    <button className= "">
       Click Me
 
       {/* img */}
-    </Button>
+    </button>
   )
 }
 
