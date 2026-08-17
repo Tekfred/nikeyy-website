@@ -18,7 +18,7 @@ const PopularProducts = () => {
         {
             products.map((products) => (
               <PopularProductCard 
-              key={products.name}{...products} 
+              key={products.name} {...products} 
               />
             ))
            }

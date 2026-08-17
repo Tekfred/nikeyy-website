@@ -11,7 +11,7 @@ const Navbar = () => {
                 <li key={items.label}><a href={items.href} className='text-lg leading-normal font-montserrat text-slate-gray'>{items.label}</a></li>
             ))}
             </ul>
-            <div className='hidden max-lg:block '><img src={hamburger} width={25} height={25} alt="" /></div>
+            <div className='hidden max-lg:block cursor-pointer'><img src={hamburger} width={25} height={25} alt="" /></div>
         </nav>
     </header>
   )

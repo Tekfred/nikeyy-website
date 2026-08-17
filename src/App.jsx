@@ -9,7 +9,7 @@ import { CustomerReviews, Footer, Hero, PopularProducts, Services,
 
 <main className="relative" >
      <Navbar />
-     <section className="xl:padding-1 wide:padding-r padding-b">
+     <section className="padding">
       <Hero />
     </section>
     
